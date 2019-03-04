@@ -1,0 +1,22 @@
+Okay! Go and try to break this highly sophisticated device! Dont give up even if it looks impossible
+#
+//MC
+(it's just a regular padlock?)
+#
+//mastermind
+//Prof (after first failure)
+Okay I will help you a little bit, from now on I will tell you how many digits are correctly placed in here.
+#
+Here's a hint for you, the combination is my age...
+#//apres 2 ou 3 echecs idk
+
+//failure text
+Uh oh... I believe it is not it. Try again!
+# //reprintez ça a chaque echec a part le 1er et le 3e
+
+//victory
+Congratulations! You got me.
+I think that you are ready for this new school!
+Talking about that, I think that this girl there wants to talk with you.
+Have a great day!
+#

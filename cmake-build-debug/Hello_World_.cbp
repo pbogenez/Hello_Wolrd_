@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Hello_World_"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/trist/Desktop/Hello-World-/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/trist/Desktop/Hello-World-/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/trist/Desktop/Hello-World-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/trist/Desktop/Hello-World-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/trist/Desktop/Hello-World-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/trist/Desktop/Hello-World-/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/trist/Desktop/Hello-World-/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/trist/Desktop/Hello-World-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/trist/Desktop/Hello-World-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/trist/Desktop/Hello-World-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hello_World_">
+				<Option output="C:/Users/trist/Desktop/Hello-World-/cmake-build-debug/Hello_World_.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/trist/Desktop/Hello-World-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/trist/Desktop/Hello-World-/SDL_image-devel-1.2.12-VC/SDL_image-1.2.12/include"/>
+					<Add directory="C:/Users/trist/Desktop/Hello-World-/SDL_ttf-devel-2.0.11-VC/SDL_ttf-2.0.11/include"/>
+					<Add directory="C:/Users/trist/Desktop/Hello-World-/SDL_mixer-1.2.12/include"/>
+					<Add directory="C:/Users/trist/Desktop/Hello-World-/SDL-1.2.15/include"/>
+					<Add directory="D:/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/5.1.0/include"/>
+					<Add directory="D:/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../include"/>
+					<Add directory="D:/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/5.1.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/trist/Desktop/Hello-World-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hello_World_"/>
+					<CompileFile command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/trist/Desktop/Hello-World-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/trist/Desktop/Hello-World-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/trist/Desktop/Hello-World-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hello_World_/fast">
+				<Option output="C:/Users/trist/Desktop/Hello-World-/cmake-build-debug/Hello_World_.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/trist/Desktop/Hello-World-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/trist/Desktop/Hello-World-/SDL_image-devel-1.2.12-VC/SDL_image-1.2.12/include"/>
+					<Add directory="C:/Users/trist/Desktop/Hello-World-/SDL_ttf-devel-2.0.11-VC/SDL_ttf-2.0.11/include"/>
+					<Add directory="C:/Users/trist/Desktop/Hello-World-/SDL_mixer-1.2.12/include"/>
+					<Add directory="C:/Users/trist/Desktop/Hello-World-/SDL-1.2.15/include"/>
+					<Add directory="D:/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/5.1.0/include"/>
+					<Add directory="D:/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../include"/>
+					<Add directory="D:/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/5.1.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/trist/Desktop/Hello-World-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hello_World_/fast"/>
+					<CompileFile command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/trist/Desktop/Hello-World-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/trist/Desktop/Hello-World-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/trist/Desktop/Hello-World-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/trist/Desktop/Hello-World-/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/trist/Desktop/Hello-World-/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/trist/Desktop/Hello-World-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/trist/Desktop/Hello-World-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/trist/Desktop/Hello-World-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/trist/Desktop/Hello-World-/headers/credits.h">
+			<Option target="Hello_World_"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Desktop/Hello-World-/headers/end.h">
+			<Option target="Hello_World_"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Desktop/Hello-World-/headers/include.h">
+			<Option target="Hello_World_"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Desktop/Hello-World-/headers/load_save.h">
+			<Option target="Hello_World_"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Desktop/Hello-World-/headers/mastermind.h">
+			<Option target="Hello_World_"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Desktop/Hello-World-/headers/menu.h">
+			<Option target="Hello_World_"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Desktop/Hello-World-/headers/newgame.h">
+			<Option target="Hello_World_"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Desktop/Hello-World-/headers/option.h">
+			<Option target="Hello_World_"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Desktop/Hello-World-/headers/quit.h">
+			<Option target="Hello_World_"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Desktop/Hello-World-/headers/read_intro.h">
+			<Option target="Hello_World_"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Desktop/Hello-World-/headers/scratch.h">
+			<Option target="Hello_World_"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Desktop/Hello-World-/headers/volume.h">
+			<Option target="Hello_World_"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Desktop/Hello-World-/sources/credits.c">
+			<Option target="Hello_World_"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Desktop/Hello-World-/sources/end.c">
+			<Option target="Hello_World_"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Desktop/Hello-World-/sources/load_save.c">
+			<Option target="Hello_World_"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Desktop/Hello-World-/sources/main.c">
+			<Option target="Hello_World_"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Desktop/Hello-World-/sources/mastermind.c">
+			<Option target="Hello_World_"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Desktop/Hello-World-/sources/menu.c">
+			<Option target="Hello_World_"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Desktop/Hello-World-/sources/newgame.c">
+			<Option target="Hello_World_"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Desktop/Hello-World-/sources/option.c">
+			<Option target="Hello_World_"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Desktop/Hello-World-/sources/quit.c">
+			<Option target="Hello_World_"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Desktop/Hello-World-/sources/read_intro.c">
+			<Option target="Hello_World_"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Desktop/Hello-World-/sources/scratch.c">
+			<Option target="Hello_World_"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Desktop/Hello-World-/sources/volume.c">
+			<Option target="Hello_World_"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Desktop/Hello-World-/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

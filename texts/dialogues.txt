@@ -1,0 +1,139 @@
+﻿// Les commentaires sont comme en code 
+//les fins de replique sont # 
+//les choix multiples seront en a) b) c)  en dessous de la replique 
+
+//Tuto 
+
+//MC 
+... # //faire chaque point lentement 
+//Prof 
+01001000 01100101 01101100 01101100 01101111 00100001#
+//MC
+a) Excuse me?#
+b) Beep boop to you too#
+//Prof
+Oops sorry, you are a human aren't you?#
+Hello! And welcome to the S.P.A.M!#
+I am the Professor Albert Sembly, the head professor of this school.#
+It seems that you are new around here, so tell me, what is your name?#
+a) Mmmmh... sorry but I dont think that this would please the administration if I had to put this on your form...# //nom non conforme 
+b) Oh! What a lovely name! 
+By the way, have are you familiar with the world of computers and programming?# //proposer les lvl de difficult� 
+Alllllright! Seems like everything is in order, I only have one more thing to make sure of. 
+People in this school are... peculiar to say the least, and enjoy beyond imagination puzzles.
+I must make sure that you can solve them.# 
+
+//minijeu 
+
+Okay! Go and try to break this highly sophisticated device! Dont give up even if it looks impossible#
+//MC
+(it's just a regular padlock?)
+//mastermind
+//Prof (after first failure) 
+Okay I will help you a little bit, from now on I will tell you how many digits are correctly placed in here.#
+Here's a hint for you, the combination is my age...#//apres 2 ou 3 echecs idk 
+
+//failure text 
+a)Uh oh... I believe it is not it. Try again!# //reprintez ça a chaque echec a part le 1er et le 3e
+
+//victory 
+b)Congratulations! You got me. #
+I think that you are ready for this new school! Talking about that, I think that this girl there wants to talk with you. 
+Have a great day!#
+
+//entrée de Scylla, nouveau perso + sortie de prof (penser a faire un slide de sortie pour qu'il disparaisse pas juste
+
+//C
+Hey! You are the new student right? I am Scylla, but my friends call me C.
+Oh, your name is NAME? Lovely! I hope that we will get along!#
+*rumble rumble rumble* # //wait a little bit 
+ahah... sorry I am actually quite hungry, I forgot to eat my breakfast this morning... 
+I know! Why wouldn't we eat lunch together?#
+//MC
+a) Sounds great!#
+b) (I ate not so long ago)#
+//BLANK (pas de noms dans la text box
+          ! //centrer dans la box 
+She grabbed you by the arm and dragged you to the cafeteria before you had time to answer#
+
+//minijeu, on aura une jauge qui se remplit + on fais bien le jeu == au niveau d'affection de C
+
+//s'ensuivent le differentes reactions du perso selon les choix du joueur (faire un arbre ou un bail du genre)
+
+//BLANK
+You reach the cafeteria, C looks hungrily at the food.#
+
+//C
+NAME, you really should try this croissant! 
+It is delicious.#
+//dans le minijeu, mettre la variable croissant ou pizza dans la fonction "eat()" 
+//Choisir le croissant jauge ++
+//BLANK
+C seems glad that you trusted her.#
+//Choisir une pizza (pas jauge ++)
+C looks somehow disappointed...#
+
+Once your meal bought, you settle at a table, but C's chair is a little bit off..#
+// a l'inverse, choisir la fonction pushchair() ou pullchair() avec la variable Scylla d�ja fix�e 
+//enleve la chaise quand elle s'assoit (pas jauge ++) 
+//C
+AAAAAAAAAAAAAh!
+//BLANK
+C managed to fall flat on her face and looks shocked... #
+//C 
+Why would you do this!? #
+//met la chaise sous elle avant qu'elle ne tombe jauge++
+Oh! Thank you I didn't notice that the chair was off... 
+I can really be careless sometimes! #
+//si la jauge est a 0 
+//BLANK
+Lunch pases slowly, C looks upset.#
+//si 1
+It seems that C starts to get comfortable around you.#
+//si 2 
+You and C eat and laugh together for a while.#
+//"grosse"  partie où faudras mettre en place un truc d'une dizaine de lignes, mettre un if et un while + un 5e truc jsp , vous etes grands a vous de voir
+
+//jauge ++ pour if 
+//jauge++ pour while 
+//jauge++ pour le 5e machin
+
+//fin du minijeu, 3 possibilités
+
+//jauge < 3/5 
+//BLANK 
+While you where finishing your food, C gets up.#
+//C
+Sorry NAME, I remembered I have things to do, good luck with your day.#
+//exit C enters Prof 
+//Prof 
+Seems like you did not quite grasp how her language works... You should try again #
+//reboot du minijeu 
+
+//jauge 3 ou 4 
+//C
+Hey! That was nice to spend some time with you, let's get going, I have to show you the rest of the school!#
+
+//jauge 5 
+Bravo Mr Breton, on ne fait pas un perfect pour la pr�sentation!#
+
+// retour a la classe de depart mais avec tous les sprites ensemble 
+
+//ALL
+Thank you for playing! More is to come!# 
+
+//fair roll des credits ptet jsp osef
+
+
+
+
+
+
+
+
+
+
+
+
+
+
